@@ -18,7 +18,7 @@ different cluster by changing the Placement label in the Git repository.
 │  Hub Cluster (openshift-gitops namespace)                        │
 │                                                                  │
 │  ManagedClusterSetBinding ──► Placement ──► PlacementDecision    │
-│                          (label: env=prod)                       │
+│                          (label: environment=prod)               │
 │                                    │                             │
 │                                    ▼                             │
 │                            GitOpsCluster                         │
