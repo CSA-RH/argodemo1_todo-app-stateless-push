@@ -6,8 +6,6 @@ metadata:
   namespace: openshift-gitops
 spec:
   numberOfClusters: 1
-  #clusterSets:
-  #  - global
   predicates:
     - requiredClusterSelector:
         labelSelector:
